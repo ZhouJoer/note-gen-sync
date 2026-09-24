@@ -7,7 +7,7 @@
   "agentPermissionMode": "ask",
   "editorSourceWrap": true,
   "rerankingModel": "",
-  "autoSync": "5",
+  "autoSync": "120",
   "giteaInstanceType": "gitea.com",
   "giteaUsername": "",
   "commitModel": "note-gen-chat",
@@ -41,7 +41,8 @@
         "id": "editor-group-d11e8602-373d-4019-97b3-903c8f696333",
         "tabIds": [
           "1790231960533-1jas3qeek",
-          "1790231991096-t9cjw62we"
+          "1790231991096-t9cjw62we",
+          "1790232100403-taajhjhx2"
         ]
       }
     },
@@ -63,9 +64,51 @@
         "kind": "file",
         "name": "随笔记录.md",
         "path": "随笔记录.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "命令.md",
+        "path": "命令.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "随笔记录.md",
+        "path": "随笔记录.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "Agent工程.md",
+        "path": "Agent工程.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "命令.md",
+        "path": "命令.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "随笔记录.md",
+        "path": "随笔记录.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "命令.md",
+        "path": "命令.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "随笔记录.md",
+        "path": "随笔记录.md"
       }
     ],
-    "navigationIndex": 2,
+    "navigationIndex": 9,
     "root": {
       "groupId": "editor-group-d11e8602-373d-4019-97b3-903c8f696333",
       "id": "editor-node-7621f276-7416-4e63-b441-fa97d88e4667",
