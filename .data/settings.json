@@ -1,21 +1,6 @@
 {
-  "editorViewMode": "visual",
-  "canvasGridStyle": "dots",
-  "language": "简体中文",
-  "autoPullOnOpen": true,
-  "outlinePosition": "right",
-  "agentPermissionMode": "ask",
-  "editorSourceWrap": true,
-  "rerankingModel": "",
-  "autoSync": "120",
-  "giteaInstanceType": "gitea.com",
-  "giteaUsername": "",
-  "commitModel": "note-gen-chat",
-  "canvasManagerSortMode": "updated",
-  "gitlabInstanceType": "gitlab.com",
-  "githubUsername": "ZhouJoer",
-  "githubCustomImageRepo": "",
-  "sttModel": "note-gen-free-note-gen-stt",
+  "recordSaveTargetMode": "current",
+  "canvasSnapToGrid": false,
   "shortcuts": [
     {
       "key": "openWindow",
@@ -30,8 +15,6 @@
       "value": "CommandOrControl+Shift+T"
     }
   ],
-  "fileManagerTextSize": "sm",
-  "enableImageRecognition": true,
   "currentAi": "",
   "editorWorkspaceLayout:main": {
     "activeGroupId": "editor-group-d11e8602-373d-4019-97b3-903c8f696333",
@@ -117,95 +100,89 @@
     "version": 1,
     "workspaceKey": "E:/work/zhouhe/doc"
   },
-  "editorModel": "",
+  "autoUpdate": true,
+  "gitlabCustomUrl": "",
+  "giteaInstanceType": "gitea.com",
+  "previewTheme": "github",
+  "autoSync": "120",
+  "version": "0.37.1",
+  "recordTextSize": "sm",
+  "editorSourceWrap": true,
+  "showSourceLineNumbers": true,
   "canvasManagerViewMode": "grid",
-  "jsdelivr": true,
-  "agentCorePromptVersion": 4,
-  "editorLineHeight": "comfortable",
-  "recordSaveTargetMode": "current",
-  "enableOutline": false,
-  "showMobileEditorToolbar": true,
-  "canvasMinimapVisible": true,
-  "currentTagId": 1,
-  "leftSidebarTab": "files",
-  "darkMode": "system",
-  "showEditorUndoRedo": true,
-  "templateList": [
+  "fixedRecordTagId": null,
+  "gitlabInstanceType": "gitlab.com",
+  "recordToolbarConfig": [
     {
-      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
-      "id": "0",
-      "range": "all",
-      "status": true,
-      "title": "笔记"
+      "enabled": true,
+      "id": "text",
+      "order": 0
     },
     {
-      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
-      "id": "1",
-      "range": "week",
-      "status": true,
-      "title": "周报"
+      "enabled": true,
+      "id": "recording",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "scan",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "image",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "link",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "file",
+      "order": 5
+    },
+    {
+      "enabled": true,
+      "id": "todo",
+      "order": 6
     }
   ],
-  "canvasSnapToGrid": false,
-  "speechToTextMode": "auto",
-  "customThemeColors": {
-    "dark": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    },
-    "light": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    }
-  },
-  "giteeAutoSync": "disabled",
-  "canvasGridVisible": true,
-  "primaryModel": "note-gen-chat",
-  "embeddingModel": "note-gen-embedding",
-  "audioModel": "",
-  "recordSortMode": "newest",
-  "giteaAutoSync": "disabled",
-  "completionModel": "note-gen-chat",
-  "gitlabAutoSync": "disabled",
-  "previewTheme": "github",
-  "codeTheme": "github",
-  "canvasInsertBehavior": "select",
-  "version": "0.37.1",
-  "agentSystemPromptExtension": "",
-  "canvasWheelBehavior": "zoom",
-  "currentPromptId": "0",
-  "gitlabCustomUrl": "",
-  "ragStructuredKnowledgeConsent": true,
+  "enableOutline": false,
   "markDescModel": "note-gen-chat",
-  "autoUpdate": true,
+  "recordCompletionBehavior": "highlight",
+  "showEditorStats": true,
+  "canvasGridGap": 20,
+  "speechToTextMode": "auto",
+  "canvasGridStyle": "dots",
+  "giteeAutoSync": "disabled",
+  "editorModel": "",
+  "outlinePosition": "right",
+  "giteaCustomUrl": "",
+  "leftSidebarTab": "files",
+  "editorViewMode": "visual",
+  "sttModel": "note-gen-free-note-gen-stt",
+  "recordViewMode": "list",
+  "recordSortMode": "newest",
+  "primaryModel": "note-gen-chat",
+  "placeholderModel": "",
+  "editorLineHeight": "comfortable",
+  "fileManagerTextSize": "sm",
+  "canvasGridVisible": true,
+  "enableImageRecognition": true,
+  "promptList": [
+    {
+      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
+      "id": "0",
+      "isDefault": true,
+      "title": "写作助手"
+    }
+  ],
+  "canvasInsertBehavior": "select",
+  "rerankingModel": "",
+  "githubUsername": "ZhouJoer",
+  "embeddingModel": "note-gen-embedding",
   "editorShortcuts": [
     {
       "id": "undo",
@@ -404,63 +381,86 @@
       "value": "Mod+Alt+-"
     }
   ],
-  "fixedRecordTagId": null,
-  "imageMethodModel": "",
-  "promptList": [
-    {
-      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
-      "id": "0",
-      "isDefault": true,
-      "title": "写作助手"
-    }
-  ],
-  "textToSpeechMode": "auto",
-  "recordCompletionBehavior": "highlight",
-  "showEditorStats": true,
-  "showSourceLineNumbers": true,
-  "recordToolbarConfig": [
-    {
-      "enabled": true,
-      "id": "text",
-      "order": 0
-    },
-    {
-      "enabled": true,
-      "id": "recording",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "scan",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "image",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "link",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "file",
-      "order": 5
-    },
-    {
-      "enabled": true,
-      "id": "todo",
-      "order": 6
-    }
-  ],
-  "editorContentWidth": "full",
+  "language": "简体中文",
+  "darkMode": "system",
+  "agentPermissionMode": "ask",
+  "canvasManagerSortMode": "updated",
+  "showEditorUndoRedo": true,
   "gitlabUsername": "",
-  "recordViewMode": "list",
-  "recordTextSize": "sm",
-  "canvasGridGap": 20,
-  "giteaCustomUrl": "",
+  "jsdelivr": true,
   "canvasDefaultZoom": 1,
-  "placeholderModel": ""
+  "customThemeColors": {
+    "dark": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    },
+    "light": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    }
+  },
+  "completionModel": "note-gen-chat",
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "all",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "week",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "canvasMinimapVisible": true,
+  "gitlabAutoSync": "disabled",
+  "agentCorePromptVersion": 4,
+  "ragStructuredKnowledgeConsent": true,
+  "giteaUsername": "",
+  "audioModel": "",
+  "textToSpeechMode": "auto",
+  "editorContentWidth": "full",
+  "currentTagId": 1,
+  "giteaAutoSync": "disabled",
+  "showMobileEditorToolbar": true,
+  "commitModel": "note-gen-chat",
+  "currentPromptId": "0",
+  "codeTheme": "github",
+  "imageMethodModel": "",
+  "agentSystemPromptExtension": "",
+  "canvasWheelBehavior": "zoom",
+  "githubCustomImageRepo": "",
+  "autoPullOnOpen": true
 }
