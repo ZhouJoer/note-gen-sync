@@ -32,4 +32,4 @@
 
 &nbsp;
 
-我的意思是尽量复用dsh的特性，要是实在不行，再为安全工作台维护一个特例
+帮我同步，合入dsh底座至[dsh-v0.2.1-rc.5](https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.5)，并在3081上验证，尽量复用dsh的特性，要是实在不行，再为安全工作台维护一个特例
